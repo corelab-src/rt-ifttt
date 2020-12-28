@@ -1,0 +1,32 @@
+tested commit version: d835a2f5
+wsize = 600
+
+fix_opt_interval = 900
+fix_con_interval = 30
+modeling_interval = 900
+
+evaluation using the applets of the paper
+100_paper     comm_count	miss_ratio	avg_resp_time
+fix-con       248410      0.0116      12.5484
+fix-opt       8290        0.6203      153.9389
+rt-ifttt-e10	89124       0.0986      97.0868
+rt-ifttt-e5   99941       0.0580      92.5262
+
+200_paper     comm_count	miss_ratio	avg_resp_time
+fix-con       248410      0.0026      12.7953
+fix-opt       8290        0.6606      142.4828
+rt-ifttt-e10  145267      0.0845      53.6875
+rt-ifttt-e5   170108      0.0494      46.5978
+
+300_paper     comm_count	miss_ratio	avg_resp_time
+fix-con       248410      0.0017      12.9663
+fix-opt       8290        0.6865      121.0826
+rt-ifttt-e10  159480      0.0449      37.2315
+rt-ifttt-e5   183310      0.0345      32.7254
+
+400_paper     comm_count	miss_ratio	avg_resp_time
+fix-con       248410      0.0053      12.6438
+fix-opt       8290        0.6570      126.4324
+rt-ifttt-e10  185180      0.0768      36.0753
+rt-ifttt-e5   212640      0.0338      29.3310
+
